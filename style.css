@@ -12,6 +12,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* width: 100%;
+    height: auto; */
 }
 
 .logo {
@@ -39,8 +41,8 @@ li {
 
 .content {
     background: #1F2937;
-    margin: 0;
     margin-top: -1px;
+    /* width: 100%; */
     height: 350px;
 }
 
@@ -89,6 +91,8 @@ button:hover {
 }
 
 .container {
+    /* width: 100%;
+    height: auto; */
 }
 
 .title {
@@ -100,21 +104,48 @@ button:hover {
 
 .empty-boxes {
     display: flex;
-    margin: 103px;
-    padding-left: 197px;
-    padding-right: 172px;
-    padding-top: 0px;
+    justify-content: center;
     margin-top: 40px;
+    margin-bottom: 80px;
+    gap: 40px;
+}
+
+.tiger1, .tiger2, .tiger3, .tiger4  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 145px;
 }
 
 .tigerpic {
-    padding-left: 31px;
+    /* padding-left: 31px; */
 }
 
 .text {
     text-align: center;
+    width: 100%;
+    height: auto;
 }
 
 .quote {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.quote-container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 96px;
+    text-align: center;
+}
+
+.quote-content {
+    display: flex;
+    font-size: 36px;
+    font-family: light italic;
+}
+
+.quote-author {
     display: flex;
 }
