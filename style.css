@@ -67,14 +67,14 @@ li {
     max-width: 300px;
 }
 
-p {
+.top-para {
     display: flex;
     max-width: 351px;
     color: #f9faf8;
     margin: 5px;
 }
 
-button {
+.top-signup {
     color: #f9faf8;
     background-color: #3882F6;
     cursor: pointer;
@@ -148,4 +148,53 @@ button:hover {
 
 .quote-author {
     display: flex;
+}
+
+.modal {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    width: 650px;
+    padding: 33px;
+    margin: 100px;
+    gap: 90px;
+    align-items: center;
+}
+
+.signup-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.bottom-para {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.bottom-signup {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 92px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: white;
+    border-style: solid;
+    color: white;
+}
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #1F2937;
 }
